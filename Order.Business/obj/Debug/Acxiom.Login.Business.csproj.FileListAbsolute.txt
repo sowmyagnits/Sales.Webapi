@@ -1,0 +1,25 @@
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Acxiom.Login.Business.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Acxiom.Login.Business.pdb
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\obj\Debug\Acxiom.Login.Business.csprojResolveAssemblyReference.cache
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\obj\Debug\Acxiom.Login.Business.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\obj\Debug\Acxiom.Login.Business.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Acxiom.Login.Business.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Acxiom.Login.Business.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Acxiom.Login.Repository.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Dapper.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Acxiom.Login.Repository.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Dapper.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\obj\Debug\Acxiom.Login.Business.csprojResolveAssemblyReference.cache
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\obj\Debug\Acxiom.Login.Business.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Business\obj\Debug\Acxiom.Login.Business.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Acxiom.Login.Business.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Acxiom.Login.Business.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Acxiom.Login.Repository.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Dapper.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Acxiom.Login.Repository.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Debug\Dapper.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\obj\Debug\Acxiom.Login.Business.csprojResolveAssemblyReference.cache
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\obj\Debug\Acxiom.Login.Business.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\obj\Debug\Acxiom.Login.Business.pdb

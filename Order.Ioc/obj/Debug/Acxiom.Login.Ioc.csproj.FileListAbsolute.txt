@@ -1,0 +1,86 @@
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Ioc.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Ioc.pdb
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\obj\Debug\Acxiom.Login.Ioc.csprojResolveAssemblyReference.cache
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\obj\Debug\Acxiom.Login.Ioc.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\obj\Debug\Acxiom.Login.Ioc.pdb
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Net.Http.Formatting.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Web.Http.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Web.Http.WebHost.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Unity.WebApi.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Net.Http.Formatting.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Web.Http.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Web.Http.WebHost.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Business.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Repository.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Business.pdb
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Repository.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Ioc.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Ioc.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Business.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Repository.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Web.Http.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Dapper.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Business.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Repository.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Web.Http.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Dapper.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\obj\Debug\Acxiom.Login.Ioc.csprojResolveAssemblyReference.cache
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\obj\Debug\Acxiom.Login.Ioc.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\obj\Debug\Acxiom.Login.Ioc.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Ioc.dll.config
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Ioc.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Ioc.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Business.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Repository.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Net.Http.Formatting.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Web.Http.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Web.Http.WebHost.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Dapper.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Business.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Acxiom.Login.Repository.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Net.Http.Formatting.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Web.Http.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\System.Web.Http.WebHost.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\bin\Debug\Dapper.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\obj\Debug\Acxiom.Login.Ioc.csprojResolveAssemblyReference.cache
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\obj\Debug\Acxiom.Login.Ioc.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Ioc\obj\Debug\Acxiom.Login.Ioc.pdb

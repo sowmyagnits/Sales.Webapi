@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SiriusIQModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="SiriusIQModelStoreContainer">
+          <EntitySet Name="CATEGORY" EntityType="SiriusIQModel.Store.CATEGORY" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Member" EntityType="SiriusIQModel.Store.Member" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="MemberClaim" EntityType="SiriusIQModel.Store.MemberClaim" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="MemberLogin" EntityType="SiriusIQModel.Store.MemberLogin" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="MemberRole" EntityType="SiriusIQModel.Store.MemberRole" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ORDER" EntityType="SiriusIQModel.Store.ORDER" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ORDERDETAIL" EntityType="SiriusIQModel.Store.ORDERDETAIL" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PRODUCT" EntityType="SiriusIQModel.Store.PRODUCT" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="REVIEW" EntityType="SiriusIQModel.Store.REVIEW" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Role" EntityType="SiriusIQModel.Store.Role" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_dbo_MemberClaim_dbo_Member_MemberId" Association="SiriusIQModel.Store.FK_dbo_MemberClaim_dbo_Member_MemberId">
+            <End Role="Member" EntitySet="Member" />
+            <End Role="MemberClaim" EntitySet="MemberClaim" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MemberLogin_dbo_Member_MemberId" Association="SiriusIQModel.Store.FK_dbo_MemberLogin_dbo_Member_MemberId">
+            <End Role="Member" EntitySet="Member" />
+            <End Role="MemberLogin" EntitySet="MemberLogin" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MemberRoles_dbo_Member_MemberId" Association="SiriusIQModel.Store.FK_dbo_MemberRoles_dbo_Member_MemberId">
+            <End Role="Member" EntitySet="Member" />
+            <End Role="MemberRole" EntitySet="MemberRole" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MemberRoles_dbo_Roles_RoleId" Association="SiriusIQModel.Store.FK_dbo_MemberRoles_dbo_Roles_RoleId">
+            <End Role="Role" EntitySet="Role" />
+            <End Role="MemberRole" EntitySet="MemberRole" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ORDERDETAIL_ORDER" Association="SiriusIQModel.Store.FK_ORDERDETAIL_ORDER">
+            <End Role="ORDER" EntitySet="ORDER" />
+            <End Role="ORDERDETAIL" EntitySet="ORDERDETAIL" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ORDERDETAIL_PRODUCT" Association="SiriusIQModel.Store.FK_ORDERDETAIL_PRODUCT">
+            <End Role="PRODUCT" EntitySet="PRODUCT" />
+            <End Role="ORDERDETAIL" EntitySet="ORDERDETAIL" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PRODUCT_CATEGORY" Association="SiriusIQModel.Store.FK_PRODUCT_CATEGORY">
+            <End Role="CATEGORY" EntitySet="CATEGORY" />
+            <End Role="PRODUCT" EntitySet="PRODUCT" />
+          </AssociationSet>
+          <AssociationSet Name="FK_REVIEW_CATEGORY" Association="SiriusIQModel.Store.FK_REVIEW_CATEGORY">
+            <End Role="PRODUCT" EntitySet="PRODUCT" />
+            <End Role="REVIEW" EntitySet="REVIEW" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="CATEGORY">
+          <Key>
+            <PropertyRef Name="CATEGORYID" />
+          </Key>
+          <Property Name="CATEGORYID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DESCRIPTION" Type="nvarchar" MaxLength="50" />
+          <Property Name="CREATEDDATE" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Member">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Email" Type="nvarchar" MaxLength="256" />
+          <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+          <Property Name="PasswordHash" Type="nvarchar(max)" />
+          <Property Name="SecurityStamp" Type="nvarchar(max)" />
+          <Property Name="PhoneNumber" Type="nvarchar(max)" />
+          <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+          <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+          <Property Name="LockoutEndDateUtc" Type="datetime" />
+          <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+          <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+        </EntityType>
+        <EntityType Name="MemberClaim">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MemberId" Type="int" Nullable="false" />
+          <Property Name="ClaimType" Type="nvarchar(max)" />
+          <Property Name="ClaimValue" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="MemberLogin">
+          <Key>
+            <PropertyRef Name="LoginProvider" />
+            <PropertyRef Name="ProviderKey" />
+            <PropertyRef Name="MemberId" />
+          </Key>
+          <Property Name="LoginProvider" Type="nvarchar" Nullable="false" MaxLength="128" />
+          <Property Name="ProviderKey" Type="nvarchar" Nullable="false" MaxLength="128" />
+          <Property Name="MemberId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MemberRole">
+          <Key>
+            <PropertyRef Name="MemberId" />
+            <PropertyRef Name="RoleId" />
+          </Key>
+          <Property Name="MemberId" Type="int" Nullable="false" />
+          <Property Name="RoleId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ORDER">
+          <Key>
+            <PropertyRef Name="ORDERID" />
+          </Key>
+          <Property Name="ORDERID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DESCRIPTION" Type="nvarchar" MaxLength="50" />
+          <Property Name="CREATEDDATE" Type="datetime" />
+        </EntityType>
+        <EntityType Name="ORDERDETAIL">
+          <Key>
+            <PropertyRef Name="ORDERDETAILID" />
+          </Key>
+          <Property Name="ORDERDETAILID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ORDERID" Type="int" Nullable="false" />
+          <Property Name="PRODUCTID" Type="int" Nullable="false" />
+          <Property Name="DESCRIPTION" Type="nvarchar" MaxLength="50" />
+          <Property Name="CREATEDDATE" Type="datetime" />
+        </EntityType>
+        <EntityType Name="PRODUCT">
+          <Key>
+            <PropertyRef Name="PRODUCTID" />
+          </Key>
+          <Property Name="PRODUCTID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CATEGORYID" Type="int" />
+          <Property Name="Description" Type="nvarchar" MaxLength="50" />
+          <Property Name="CREATEDDATE" Type="datetime" />
+          <Property Name="Brand" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="REVIEW">
+          <Key>
+            <PropertyRef Name="PRODUCTREVIEWID" />
+          </Key>
+          <Property Name="PRODUCTREVIEWID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PRODUCTID" Type="int" />
+          <Property Name="COMMENTS" Type="nvarchar" MaxLength="1000" />
+          <Property Name="REVIEWDATE" Type="datetime" />
+          <Property Name="REVIEWERNAME" Type="nvarchar" MaxLength="100" />
+          <Property Name="RATINGS" Type="int" />
+          <Property Name="CREATEDDATE" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="256" />
+        </EntityType>
+        <Association Name="FK_dbo_MemberClaim_dbo_Member_MemberId">
+          <End Role="Member" Type="SiriusIQModel.Store.Member" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MemberClaim" Type="SiriusIQModel.Store.MemberClaim" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MemberClaim">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MemberLogin_dbo_Member_MemberId">
+          <End Role="Member" Type="SiriusIQModel.Store.Member" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MemberLogin" Type="SiriusIQModel.Store.MemberLogin" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MemberLogin">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MemberRoles_dbo_Member_MemberId">
+          <End Role="Member" Type="SiriusIQModel.Store.Member" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MemberRole" Type="SiriusIQModel.Store.MemberRole" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MemberRole">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MemberRoles_dbo_Roles_RoleId">
+          <End Role="Role" Type="SiriusIQModel.Store.Role" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MemberRole" Type="SiriusIQModel.Store.MemberRole" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MemberRole">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ORDERDETAIL_ORDER">
+          <End Role="ORDER" Type="SiriusIQModel.Store.ORDER" Multiplicity="1" />
+          <End Role="ORDERDETAIL" Type="SiriusIQModel.Store.ORDERDETAIL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ORDER">
+              <PropertyRef Name="ORDERID" />
+            </Principal>
+            <Dependent Role="ORDERDETAIL">
+              <PropertyRef Name="ORDERID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ORDERDETAIL_PRODUCT">
+          <End Role="PRODUCT" Type="SiriusIQModel.Store.PRODUCT" Multiplicity="1" />
+          <End Role="ORDERDETAIL" Type="SiriusIQModel.Store.ORDERDETAIL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PRODUCT">
+              <PropertyRef Name="PRODUCTID" />
+            </Principal>
+            <Dependent Role="ORDERDETAIL">
+              <PropertyRef Name="PRODUCTID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PRODUCT_CATEGORY">
+          <End Role="CATEGORY" Type="SiriusIQModel.Store.CATEGORY" Multiplicity="0..1" />
+          <End Role="PRODUCT" Type="SiriusIQModel.Store.PRODUCT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CATEGORY">
+              <PropertyRef Name="CATEGORYID" />
+            </Principal>
+            <Dependent Role="PRODUCT">
+              <PropertyRef Name="CATEGORYID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_REVIEW_CATEGORY">
+          <End Role="PRODUCT" Type="SiriusIQModel.Store.PRODUCT" Multiplicity="0..1" />
+          <End Role="REVIEW" Type="SiriusIQModel.Store.REVIEW" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PRODUCT">
+              <PropertyRef Name="PRODUCTID" />
+            </Principal>
+            <Dependent Role="REVIEW">
+              <PropertyRef Name="PRODUCTID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="GetProductDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="productID" Type="int" Mode="In" />
+        </Function>
+        <Function Name="GetProducts" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SiriusIQModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="SiriusIQEntities2" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="CATEGORies" EntityType="SiriusIQModel.CATEGORY" />
+          <EntitySet Name="Members" EntityType="SiriusIQModel.Member" />
+          <EntitySet Name="MemberClaims" EntityType="SiriusIQModel.MemberClaim" />
+          <EntitySet Name="MemberLogins" EntityType="SiriusIQModel.MemberLogin" />
+          <EntitySet Name="ORDERs" EntityType="SiriusIQModel.ORDER" />
+          <EntitySet Name="ORDERDETAILs" EntityType="SiriusIQModel.ORDERDETAIL" />
+          <EntitySet Name="PRODUCTs" EntityType="SiriusIQModel.PRODUCT" />
+          <EntitySet Name="REVIEWs" EntityType="SiriusIQModel.REVIEW" />
+          <EntitySet Name="Roles" EntityType="SiriusIQModel.Role" />
+          <AssociationSet Name="FK_PRODUCT_CATEGORY" Association="SiriusIQModel.FK_PRODUCT_CATEGORY">
+            <End Role="CATEGORY" EntitySet="CATEGORies" />
+            <End Role="PRODUCT" EntitySet="PRODUCTs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MemberClaim_dbo_Member_MemberId" Association="SiriusIQModel.FK_dbo_MemberClaim_dbo_Member_MemberId">
+            <End Role="Member" EntitySet="Members" />
+            <End Role="MemberClaim" EntitySet="MemberClaims" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MemberLogin_dbo_Member_MemberId" Association="SiriusIQModel.FK_dbo_MemberLogin_dbo_Member_MemberId">
+            <End Role="Member" EntitySet="Members" />
+            <End Role="MemberLogin" EntitySet="MemberLogins" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ORDERDETAIL_ORDER" Association="SiriusIQModel.FK_ORDERDETAIL_ORDER">
+            <End Role="ORDER" EntitySet="ORDERs" />
+            <End Role="ORDERDETAIL" EntitySet="ORDERDETAILs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ORDERDETAIL_PRODUCT" Association="SiriusIQModel.FK_ORDERDETAIL_PRODUCT">
+            <End Role="PRODUCT" EntitySet="PRODUCTs" />
+            <End Role="ORDERDETAIL" EntitySet="ORDERDETAILs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_REVIEW_CATEGORY" Association="SiriusIQModel.FK_REVIEW_CATEGORY">
+            <End Role="PRODUCT" EntitySet="PRODUCTs" />
+            <End Role="REVIEW" EntitySet="REVIEWs" />
+          </AssociationSet>
+          <AssociationSet Name="MemberRole" Association="SiriusIQModel.MemberRole">
+            <End Role="Member" EntitySet="Members" />
+            <End Role="Role" EntitySet="Roles" />
+          </AssociationSet>
+          <FunctionImport Name="GetProductDetails" ReturnType="Collection(SiriusIQModel.GetProductDetails_Result)">
+            <Parameter Name="productID" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="GetProducts" ReturnType="Collection(SiriusIQModel.GetProducts_Result)" />
+        </EntityContainer>
+        <EntityType Name="CATEGORY">
+          <Key>
+            <PropertyRef Name="CATEGORYID" />
+          </Key>
+          <Property Name="CATEGORYID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="DESCRIPTION" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="PRODUCTs" Relationship="SiriusIQModel.FK_PRODUCT_CATEGORY" FromRole="CATEGORY" ToRole="PRODUCT" />
+        </EntityType>
+        <EntityType Name="Member">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Email" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+          <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+          <Property Name="PasswordHash" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="SecurityStamp" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+          <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="LockoutEndDateUtc" Type="DateTime" Precision="3" />
+          <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+          <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="MemberClaims" Relationship="SiriusIQModel.FK_dbo_MemberClaim_dbo_Member_MemberId" FromRole="Member" ToRole="MemberClaim" />
+          <NavigationProperty Name="MemberLogins" Relationship="SiriusIQModel.FK_dbo_MemberLogin_dbo_Member_MemberId" FromRole="Member" ToRole="MemberLogin" />
+          <NavigationProperty Name="Roles" Relationship="SiriusIQModel.MemberRole" FromRole="Member" ToRole="Role" />
+        </EntityType>
+        <EntityType Name="MemberClaim">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="MemberId" Type="Int32" Nullable="false" />
+          <Property Name="ClaimType" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="ClaimValue" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Member" Relationship="SiriusIQModel.FK_dbo_MemberClaim_dbo_Member_MemberId" FromRole="MemberClaim" ToRole="Member" />
+        </EntityType>
+        <EntityType Name="MemberLogin">
+          <Key>
+            <PropertyRef Name="LoginProvider" />
+            <PropertyRef Name="ProviderKey" />
+            <PropertyRef Name="MemberId" />
+          </Key>
+          <Property Name="LoginProvider" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+          <Property Name="ProviderKey" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+          <Property Name="MemberId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Member" Relationship="SiriusIQModel.FK_dbo_MemberLogin_dbo_Member_MemberId" FromRole="MemberLogin" ToRole="Member" />
+        </EntityType>
+        <EntityType Name="ORDER">
+          <Key>
+            <PropertyRef Name="ORDERID" />
+          </Key>
+          <Property Name="ORDERID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="DESCRIPTION" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="ORDERDETAILs" Relationship="SiriusIQModel.FK_ORDERDETAIL_ORDER" FromRole="ORDER" ToRole="ORDERDETAIL" />
+        </EntityType>
+        <EntityType Name="ORDERDETAIL">
+          <Key>
+            <PropertyRef Name="ORDERDETAILID" />
+          </Key>
+          <Property Name="ORDERDETAILID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ORDERID" Type="Int32" Nullable="false" />
+          <Property Name="PRODUCTID" Type="Int32" Nullable="false" />
+          <Property Name="DESCRIPTION" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="ORDER" Relationship="SiriusIQModel.FK_ORDERDETAIL_ORDER" FromRole="ORDERDETAIL" ToRole="ORDER" />
+          <NavigationProperty Name="PRODUCT" Relationship="SiriusIQModel.FK_ORDERDETAIL_PRODUCT" FromRole="ORDERDETAIL" ToRole="PRODUCT" />
+        </EntityType>
+        <EntityType Name="PRODUCT">
+          <Key>
+            <PropertyRef Name="PRODUCTID" />
+          </Key>
+          <Property Name="PRODUCTID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="CATEGORYID" Type="Int32" />
+          <Property Name="Description" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+          <Property Name="Brand" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="CATEGORY" Relationship="SiriusIQModel.FK_PRODUCT_CATEGORY" FromRole="PRODUCT" ToRole="CATEGORY" />
+          <NavigationProperty Name="ORDERDETAILs" Relationship="SiriusIQModel.FK_ORDERDETAIL_PRODUCT" FromRole="PRODUCT" ToRole="ORDERDETAIL" />
+          <NavigationProperty Name="REVIEWs" Relationship="SiriusIQModel.FK_REVIEW_CATEGORY" FromRole="PRODUCT" ToRole="REVIEW" />
+        </EntityType>
+        <EntityType Name="REVIEW">
+          <Key>
+            <PropertyRef Name="PRODUCTREVIEWID" />
+          </Key>
+          <Property Name="PRODUCTREVIEWID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="PRODUCTID" Type="Int32" />
+          <Property Name="COMMENTS" Type="String" MaxLength="1000" Unicode="true" FixedLength="false" />
+          <Property Name="REVIEWDATE" Type="DateTime" Precision="3" />
+          <Property Name="REVIEWERNAME" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="RATINGS" Type="Int32" />
+          <Property Name="CREATEDDATE" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="PRODUCT" Relationship="SiriusIQModel.FK_REVIEW_CATEGORY" FromRole="REVIEW" ToRole="PRODUCT" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Members" Relationship="SiriusIQModel.MemberRole" FromRole="Role" ToRole="Member" />
+        </EntityType>
+        <Association Name="FK_PRODUCT_CATEGORY">
+          <End Role="CATEGORY" Type="SiriusIQModel.CATEGORY" Multiplicity="0..1" />
+          <End Role="PRODUCT" Type="SiriusIQModel.PRODUCT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CATEGORY">
+              <PropertyRef Name="CATEGORYID" />
+            </Principal>
+            <Dependent Role="PRODUCT">
+              <PropertyRef Name="CATEGORYID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MemberClaim_dbo_Member_MemberId">
+          <End Role="Member" Type="SiriusIQModel.Member" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MemberClaim" Type="SiriusIQModel.MemberClaim" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MemberClaim">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MemberLogin_dbo_Member_MemberId">
+          <End Role="Member" Type="SiriusIQModel.Member" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MemberLogin" Type="SiriusIQModel.MemberLogin" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MemberLogin">
+              <PropertyRef Name="MemberId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ORDERDETAIL_ORDER">
+          <End Role="ORDER" Type="SiriusIQModel.ORDER" Multiplicity="1" />
+          <End Role="ORDERDETAIL" Type="SiriusIQModel.ORDERDETAIL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ORDER">
+              <PropertyRef Name="ORDERID" />
+            </Principal>
+            <Dependent Role="ORDERDETAIL">
+              <PropertyRef Name="ORDERID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ORDERDETAIL_PRODUCT">
+          <End Role="PRODUCT" Type="SiriusIQModel.PRODUCT" Multiplicity="1" />
+          <End Role="ORDERDETAIL" Type="SiriusIQModel.ORDERDETAIL" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PRODUCT">
+              <PropertyRef Name="PRODUCTID" />
+            </Principal>
+            <Dependent Role="ORDERDETAIL">
+              <PropertyRef Name="PRODUCTID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_REVIEW_CATEGORY">
+          <End Role="PRODUCT" Type="SiriusIQModel.PRODUCT" Multiplicity="0..1" />
+          <End Role="REVIEW" Type="SiriusIQModel.REVIEW" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PRODUCT">
+              <PropertyRef Name="PRODUCTID" />
+            </Principal>
+            <Dependent Role="REVIEW">
+              <PropertyRef Name="PRODUCTID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MemberRole">
+          <End Role="Member" Type="SiriusIQModel.Member" Multiplicity="*" />
+          <End Role="Role" Type="SiriusIQModel.Role" Multiplicity="*" />
+        </Association>
+        <ComplexType Name="GetProductDetails_Result">
+          <Property Type="String" Name="Description" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Brand" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Comments" Nullable="true" MaxLength="1000" />
+          <Property Type="DateTime" Name="ReviewDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="ReviewerName" Nullable="true" MaxLength="100" />
+          <Property Type="Int32" Name="RATINGS" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="GetProducts_Result">
+          <Property Type="Int32" Name="PRODUCTID" Nullable="false" />
+          <Property Type="String" Name="Description" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Brand" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="ProductID1" Nullable="false" />
+          <Property Type="String" Name="Comments" Nullable="true" MaxLength="1000" />
+          <Property Type="Int32" Name="RATINGS" Nullable="true" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SiriusIQModelStoreContainer" CdmEntityContainer="SiriusIQEntities2">
+          <EntitySetMapping Name="CATEGORies">
+            <EntityTypeMapping TypeName="SiriusIQModel.CATEGORY">
+              <MappingFragment StoreEntitySet="CATEGORY">
+                <ScalarProperty Name="CATEGORYID" ColumnName="CATEGORYID" />
+                <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+                <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Members">
+            <EntityTypeMapping TypeName="SiriusIQModel.Member">
+              <MappingFragment StoreEntitySet="Member">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+                <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+                <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+                <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+                <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+                <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+                <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MemberClaims">
+            <EntityTypeMapping TypeName="SiriusIQModel.MemberClaim">
+              <MappingFragment StoreEntitySet="MemberClaim">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+                <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+                <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MemberLogins">
+            <EntityTypeMapping TypeName="SiriusIQModel.MemberLogin">
+              <MappingFragment StoreEntitySet="MemberLogin">
+                <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+                <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+                <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ORDERs">
+            <EntityTypeMapping TypeName="SiriusIQModel.ORDER">
+              <MappingFragment StoreEntitySet="ORDER">
+                <ScalarProperty Name="ORDERID" ColumnName="ORDERID" />
+                <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+                <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ORDERDETAILs">
+            <EntityTypeMapping TypeName="SiriusIQModel.ORDERDETAIL">
+              <MappingFragment StoreEntitySet="ORDERDETAIL">
+                <ScalarProperty Name="ORDERDETAILID" ColumnName="ORDERDETAILID" />
+                <ScalarProperty Name="ORDERID" ColumnName="ORDERID" />
+                <ScalarProperty Name="PRODUCTID" ColumnName="PRODUCTID" />
+                <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+                <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PRODUCTs">
+            <EntityTypeMapping TypeName="SiriusIQModel.PRODUCT">
+              <MappingFragment StoreEntitySet="PRODUCT">
+                <ScalarProperty Name="PRODUCTID" ColumnName="PRODUCTID" />
+                <ScalarProperty Name="CATEGORYID" ColumnName="CATEGORYID" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+                <ScalarProperty Name="Brand" ColumnName="Brand" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="REVIEWs">
+            <EntityTypeMapping TypeName="SiriusIQModel.REVIEW">
+              <MappingFragment StoreEntitySet="REVIEW">
+                <ScalarProperty Name="PRODUCTREVIEWID" ColumnName="PRODUCTREVIEWID" />
+                <ScalarProperty Name="PRODUCTID" ColumnName="PRODUCTID" />
+                <ScalarProperty Name="COMMENTS" ColumnName="COMMENTS" />
+                <ScalarProperty Name="REVIEWDATE" ColumnName="REVIEWDATE" />
+                <ScalarProperty Name="REVIEWERNAME" ColumnName="REVIEWERNAME" />
+                <ScalarProperty Name="RATINGS" ColumnName="RATINGS" />
+                <ScalarProperty Name="CREATEDDATE" ColumnName="CREATEDDATE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Roles">
+            <EntityTypeMapping TypeName="SiriusIQModel.Role">
+              <MappingFragment StoreEntitySet="Role">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="MemberRole" TypeName="SiriusIQModel.MemberRole" StoreEntitySet="MemberRole">
+            <EndProperty Name="Member">
+              <ScalarProperty Name="Id" ColumnName="MemberId" />
+            </EndProperty>
+            <EndProperty Name="Role">
+              <ScalarProperty Name="Id" ColumnName="RoleId" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <FunctionImportMapping FunctionImportName="GetProductDetails" FunctionName="SiriusIQModel.Store.GetProductDetails">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SiriusIQModel.GetProductDetails_Result">
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Brand" ColumnName="Brand" />
+                <ScalarProperty Name="Comments" ColumnName="Comments" />
+                <ScalarProperty Name="ReviewDate" ColumnName="ReviewDate" />
+                <ScalarProperty Name="ReviewerName" ColumnName="ReviewerName" />
+                <ScalarProperty Name="RATINGS" ColumnName="RATINGS" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GetProducts" FunctionName="SiriusIQModel.Store.GetProducts">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SiriusIQModel.GetProducts_Result">
+                <ScalarProperty Name="PRODUCTID" ColumnName="PRODUCTID" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Brand" ColumnName="Brand" />
+                <ScalarProperty Name="ProductID1" ColumnName="ProductID1" />
+                <ScalarProperty Name="Comments" ColumnName="Comments" />
+                <ScalarProperty Name="RATINGS" ColumnName="RATINGS" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

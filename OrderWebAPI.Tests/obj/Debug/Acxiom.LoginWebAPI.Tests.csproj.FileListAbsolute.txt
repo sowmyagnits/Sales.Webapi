@@ -1,0 +1,241 @@
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\ApplicationInsights.config
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\csc.exe
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\vbc.exe
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.Tests.dll.config
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.Tests.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.Tests.pdb
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Razor.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Owin.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.Owin.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\EntityFramework.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.pdb
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Razor.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.Owin.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\EntityFramework.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\obj\Debug\Acxiom.LoginWebAPI.Tests.csprojResolveAssemblyReference.cache
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\obj\Debug\Acxiom.LoginWebAPI.Tests.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\obj\Debug\Acxiom.LoginWebAPI.Tests.pdb
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Ioc.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Unity.WebApi.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Ioc.pdb
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.Cors.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Cors.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.Cors.xml
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Business.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Repository.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Business.pdb
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Repository.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.Tests.dll.config
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.Tests.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.Tests.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Owin.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Business.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Cors.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Repository.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Cors.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Dapper.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Business.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Cors.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Repository.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Dapper.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\obj\Debug\Acxiom.LoginWebAPI.Tests.csprojResolveAssemblyReference.cache
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\obj\Debug\Acxiom.LoginWebAPI.Tests.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\obj\Debug\Acxiom.LoginWebAPI.Tests.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Ioc.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Ioc.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\log4net.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\log4net.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\ApplicationInsights.config
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\csc.exe
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\csc.exe.config
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\csc.rsp
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\csi.exe
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\csi.rsp
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\System.AppContext.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\vbc.exe
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\vbc.exe.config
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\vbc.rsp
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.Tests.dll.config
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.Tests.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.Tests.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Business.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Castle.Core.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Testing.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Moq.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\nunit.framework.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Owin.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Razor.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Repository.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\log4net.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.Owin.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Ioc.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Cors.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Dapper.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Business.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.LoginWebAPI.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Castle.Core.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Testing.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Moq.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\nunit.framework.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Razor.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Repository.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\log4net.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\System.Web.Http.Owin.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Acxiom.Login.Ioc.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Owin.Cors.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Dapper.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\obj\Debug\Acxiom.LoginWebAPI.Tests.csprojResolveAssemblyReference.cache
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\obj\Debug\Acxiom.LoginWebAPI.Tests.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.LoginWebAPI.Tests\obj\Debug\Acxiom.LoginWebAPI.Tests.pdb

@@ -1,0 +1,31 @@
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Acxiom.Login.Repository.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Acxiom.Login.Repository.pdb
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\obj\Debug\Acxiom.Login.Repository.csprojResolveAssemblyReference.cache
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\obj\Debug\Acxiom.Login.Repository.dll
+C:\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\obj\Debug\Acxiom.Login.Repository.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Acxiom.Login.Repository.dll.config
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Acxiom.Login.Repository.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Acxiom.Login.Repository.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Dapper.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Dapper.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\obj\Debug\Acxiom.Login.Repository.dll
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\obj\Debug\Acxiom.Login.Repository.pdb
+C:\Users\nkadav\Documents\Visual Studio 2015\Projects\Acxiom.LoginWebAPI\Acxiom.Login.Repository\obj\Debug\Acxiom.Login.Repository.csprojResolveAssemblyReference.cache
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Acxiom.Login.Repository.dll.config
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Acxiom.Login.Repository.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Acxiom.Login.Repository.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Dapper.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\EntityFramework.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Dapper.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\EntityFramework.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\obj\Debug\Acxiom.Login.Repository.csprojResolveAssemblyReference.cache
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\obj\Debug\Acxiom.Login.Repository.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Repository\obj\Debug\Acxiom.Login.Repository.pdb

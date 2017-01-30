@@ -1,0 +1,10 @@
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Release\Acxiom.Login.Business.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Release\Acxiom.Login.Business.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Release\Acxiom.Login.Repository.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Release\Dapper.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Release\Acxiom.Login.Repository.pdb
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\bin\Release\Dapper.xml
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\obj\Release\Acxiom.Login.Business.csprojResolveAssemblyReference.cache
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\obj\Release\Acxiom.Login.Business.dll
+C:\Projects\giidtemprepo\Acxiom.LoginWebAPI\Acxiom.Login.Business\obj\Release\Acxiom.Login.Business.pdb

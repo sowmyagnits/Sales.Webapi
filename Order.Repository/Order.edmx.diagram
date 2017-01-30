@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="307dc362179f4787bf7e1c85778763e1" Name="Diagram1">
+        <EntityTypeShape EntityType="SiriusIQModel.CATEGORY" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SiriusIQModel.Member" Width="1.5" PointX="7.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SiriusIQModel.MemberClaim" Width="1.5" PointX="10" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SiriusIQModel.MemberLogin" Width="1.5" PointX="10" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SiriusIQModel.ORDER" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SiriusIQModel.ORDERDETAIL" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SiriusIQModel.PRODUCT" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SiriusIQModel.REVIEW" Width="1.5" PointX="5.25" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SiriusIQModel.Role" Width="1.5" PointX="10" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="SiriusIQModel.FK_PRODUCT_CATEGORY" ManuallyRouted="false" />
+        <AssociationConnector Association="SiriusIQModel.FK_dbo_MemberClaim_dbo_Member_MemberId" ManuallyRouted="false" />
+        <AssociationConnector Association="SiriusIQModel.FK_dbo_MemberLogin_dbo_Member_MemberId" ManuallyRouted="false" />
+        <AssociationConnector Association="SiriusIQModel.FK_ORDERDETAIL_ORDER" ManuallyRouted="false" />
+        <AssociationConnector Association="SiriusIQModel.FK_ORDERDETAIL_PRODUCT" ManuallyRouted="false" />
+        <AssociationConnector Association="SiriusIQModel.FK_REVIEW_CATEGORY" ManuallyRouted="false" />
+        <AssociationConnector Association="SiriusIQModel.MemberRole" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

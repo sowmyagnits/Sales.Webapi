@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web site\Acxiom.LoginWebAPI" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Projects\\giidtemprepo\\Acxiom\.LoginWebAPI\\Acxiom\.LoginWebAPI\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Projects\\giidtemprepo\\Acxiom\.LoginWebAPI\\Acxiom\.LoginWebAPI\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="GIIDAppCon-Web.config Connection String" description="" value="Data Source=DWDEVS1_TR;User Id=PMDW_A;Password=may55july;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Projects\\giidtemprepo\\Acxiom\.LoginWebAPI\\Acxiom\.LoginWebAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='GIIDAppCon']/@connectionString" />
+  </parameter>
+</parameters>
